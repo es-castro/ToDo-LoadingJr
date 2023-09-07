@@ -1,6 +1,6 @@
 exports.up = (knex) =>
   knex.schema.createTable("users", (table) => {
-    table.uuid("id").defaultTo(knex.fn.uuid());
+    table.uuid("id").primary().defaultTo(knex.fn.uuid());
     table.text("name");
     table.text("email");
     table.text("password_hash");
