@@ -2,7 +2,7 @@
 
 Um modelo de gerenciamento de tarefas desenvolvido no processo seletivo da Loading Jr.
 
-### Passos de inicialização
+### 🏃 Passos de inicialização
 
 Instale os pacotes dentro da pasta _backend_
 
@@ -15,6 +15,8 @@ Crie o banco de dados
 Rode o servidor
 
 `npm run dev`
+
+## 🚀 Rotas da Aplicação
 
 ### UsersController
 
